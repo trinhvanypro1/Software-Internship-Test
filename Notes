@@ -1,1 +1,3 @@
-# Software-Internship-Test
+- Nội dung gồm 2 phần: thuật toán và thực hành tạo form
+- Code được viết bằng ngôn dữ php
+- Đối với phần thực hành tạo form code chạy trên Xampp, code được sử dụng Framework Laravel 5.8 và được kết nối dữ liệu với MySQL
