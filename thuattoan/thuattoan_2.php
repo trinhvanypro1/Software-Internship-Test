@@ -14,7 +14,7 @@ function count_values($array) {
 
 $array = array(3, 7, 3);
 $array =count_values($array); 
-//sắp xếp giá trị mảng theo giá trị giảm dần
+//sắp xếp key theo giá trị giảm dần
 arsort($array);
 //dùng hàm array_keys để trả về key:
 $res = array_keys($array);
@@ -31,7 +31,7 @@ echo "Giá trị xuất hiện nhiều nhất là:"." ".$res[0].".";
 //Do thuật toán chưa xử lý được các giá trị như: null, true và false nên bài này em xin phép gán nó thành mảng
 $array = array("null", "hello", "true", "null");
 $array =count_values($array); // Case-insensitive matching
-//sắp xếp giá trị mảng theo giá trị giảm dần
+//sắp xếp key theo giá trị giảm dần
 arsort($array);
 //dùng hàm array_keys để trả về key:
 $res = array_keys($array);
@@ -48,7 +48,7 @@ echo "Giá trị xuất hiện nhiều nhất là:"." ".$res[0].".";
 //Do thuật toán chưa xử lý được các giá trị như: null, true và false nên bài này em xin phép gán nó thành mảng
 $array = array("false", "up", "down", "left", "right", "true", "false");
 $array =count_values($array); // Case-insensitive matching
-//sắp xếp giá trị mảng theo giá trị giảm dần
+//sắp xếp key theo giá trị giảm dần
 arsort($array);
 //dùng hàm array_keys để trả về key:
 $res = array_keys($array);
